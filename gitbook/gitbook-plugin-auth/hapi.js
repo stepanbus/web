@@ -77,7 +77,7 @@ const logout = function (request, reply) {
 };
 
 const server = new Hapi.Server();
-server.connection({ port: 8000 });
+server.connection({ port: 80 });
 
 server.register(require('../'), (err) => {
 
